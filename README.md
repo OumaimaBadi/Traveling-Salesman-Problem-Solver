@@ -36,7 +36,7 @@ We tested our implementations on four instances of the TSP. For instances 1 and 
 - **Instances 3 and 4:** GVNS provides near-optimal solutions with significantly reduced computational time.
 
 ## Visualizations
-The `visualizations/` directory contains charts and plots comparing the performance of dynamic programming versus GVNS, including time complexity and the length of the tours.
+The `results/visualizations/` directory contains charts and plots comparing the performance of dynamic programming versus GVNS, including time complexity and the length of the tours.
 
 ## Conclusion
 The findings from this project underscore the limitations of dynamic programming in handling larger TSP instances and demonstrate the effectiveness of GVNS as a scalable alternative for larger datasets. GVNS not only handles larger instances efficiently but also maintains closeness to the optimal solutions.
