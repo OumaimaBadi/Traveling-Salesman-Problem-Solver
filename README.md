@@ -14,6 +14,7 @@ Dynamic Programming (DP) solves problems by breaking them down into simpler subp
 
 ### Metaheuristic: General Variable Neighborhood Search (GVNS)
 Metaheuristics are strategies designed to find, generate, or select heuristics that may provide a sufficiently good solution to an optimization problem, especially with incomplete or imperfect information. GVNS is a robust metaheuristic that systematically changes the neighborhood structures within which local search is applied, aiming to bring a good balance between exploring new regions and exploiting known promising areas.
+
 ![GVNs](results/GVN.PNG)
 
 ## Project Structure
