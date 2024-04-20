@@ -5,7 +5,7 @@ This repository provides solutions for the Traveling Salesman Problem (TSP) usin
 
 ## Introduction to TSP
 The Traveling Salesman Problem (TSP) is a well-known combinatorial optimization problem, which requires finding the shortest possible route that visits a list of cities and returns to the origin city. It is NP-hard, meaning that the time required to solve the problem increases exponentially with the number of cities.
-![TSP](results/TSP.png)
+![TSP](results/TSP.PNG)
 
 ## Methods Used
 
