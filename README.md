@@ -10,11 +10,10 @@ The Traveling Salesman Problem (TSP) is a well-known combinatorial optimization 
 ## Methods Used
 
 ### Dynamic Programming
-Dynamic Programming (DP) solves problems by breaking them down into simpler subproblems and storing the results of these subproblems to avoid computing the same results multiple times. For TSP, the DP approach ensures finding an optimal solution by exploring all possible tours, but it becomes impractical for larger datasets due to its exponential time complexity.
+Dynamic Programming (DP) solves problems by breaking them down into simpler subproblems and storing the results of these subproblems to avoid computing the same results multiple times. For TSP, the DP approach ensures finding an optimal solution by exploring all possible tours. The time complexity of this method is O(n^2 * 2^n), which becomes impractical for larger datasets due to its exponential growth in computation requirements.
 
 ### Metaheuristic: General Variable Neighborhood Search (GVNS)
-Metaheuristics are strategies designed to find, generate, or select heuristics that may provide a sufficiently good solution to an optimization problem, especially with incomplete or imperfect information. GVNS is a robust metaheuristic that systematically changes the neighborhood structures within which local search is applied, aiming to bring a good balance between exploring new regions and exploiting known promising areas.
-
+Metaheuristics are strategies designed to find, generate, or select heuristics that may provide a sufficiently good solution to an optimization problem, especially with incomplete or imperfect information. GVNS is a robust metaheuristic that systematically changes the neighborhood structures within which local search is applied, aiming to bring a good balance between exploring new regions and exploiting known promising areas. The time complexity of GVNS is generally more favorable than DP, often closer to polynomial time, depending on the specific configurations and the instance being solved.
 ![GVNs](results/GVN.PNG)
 
 ## Project Structure
