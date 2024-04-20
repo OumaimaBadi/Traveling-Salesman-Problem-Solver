@@ -5,6 +5,7 @@ This repository provides solutions for the Traveling Salesman Problem (TSP) usin
 
 ## Introduction to TSP
 The Traveling Salesman Problem (TSP) is a well-known combinatorial optimization problem, which requires finding the shortest possible route that visits a list of cities and returns to the origin city. It is NP-hard, meaning that the time required to solve the problem increases exponentially with the number of cities.
+![TSP](results/TSP.png)
 
 ## Methods Used
 
@@ -31,3 +32,29 @@ Clone this repository :
 ```bash
 git clone <repository-url>
 cd <repository-directory>
+
+## Results
+We tested our implementations on four instances of the TSP. For instances 1 and 2, both methods were applied. However, due to the exponential growth of computational requirements, the dynamic programming approach was not used for instances 3 and 4. Results showed that:
+
+- **Instances 1 and 2:** Dynamic programming finds the optimal solution but is slower compared to GVNS.
+- **Instances 3 and 4:** GVNS provides near-optimal solutions with significantly reduced computational time.
+
+## Visualizations
+The `visualizations/` directory contains charts and plots comparing the performance of dynamic programming versus GVNS, including time complexity and the length of the tours.
+
+## Conclusion
+The findings from this project underscore the limitations of dynamic programming in handling larger TSP instances and demonstrate the effectiveness of GVNS as a scalable alternative for larger datasets. GVNS not only handles larger instances efficiently but also maintains closeness to the optimal solutions.
+
+## Contributing
+Contributions are welcome! Please fork the project, create a feature branch, and submit a pull request for review.
+
+## License
+This project is licensed under the MIT License - see the `LICENSE.md` file for details.
+
+## References
+- Danzig, G.B., Fulkerson, D.R., and Johnson, S.M., "Solution to the Traveling-Salesman Problem", Operations Research, 1952.
+- Mladenovic, N., Hansen, P., "Variable Neighborhood Search", Computers & Operations Research, 1997.
+
+## Authors
+- BADI Oumaima
+- BENLAGOTE Zainab
