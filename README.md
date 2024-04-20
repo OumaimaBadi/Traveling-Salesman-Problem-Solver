@@ -27,12 +27,6 @@ Metaheuristics are strategies designed to find, generate, or select heuristics t
 - NumPy
 - Matplotlib (for visualization)
 
-## Setup
-Clone this repository :
-```bash
-git clone <repository-url>
-cd <repository-directory>
-
 ## Results
 We tested our implementations on four instances of the TSP. For instances 1 and 2, both methods were applied. However, due to the exponential growth of computational requirements, the dynamic programming approach was not used for instances 3 and 4. Results showed that:
 
@@ -58,3 +52,9 @@ This project is licensed under the MIT License - see the `LICENSE.md` file for d
 ## Authors
 - BADI Oumaima
 - BENLAGOTE Zainab
+  
+## Setup
+Clone this repository :
+```bash
+git clone <repository-url>
+cd <repository-directory>
